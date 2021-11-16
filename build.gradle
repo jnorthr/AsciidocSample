@@ -1,0 +1,22 @@
+// build.gradle file to test document production
+plugins {
+    id 'org.asciidoctor.jvm.convert' version '3.3.2'
+}
+
+// get externals via plugins
+apply plugin:'java'
+
+version = '0.1'
+defaultTasks 'clean','asciidoctor'
+
+repositories{
+    mavenCentral()
+    google()
+}
+
+asciidoctor{
+    baseDirFollowsSourceFile()
+}
+
+
+

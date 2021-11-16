@@ -1,0 +1,23 @@
+= README Index
+:linkattrs:
+:linkcss:
+:toc: right
+:toc-title: Document Index
+:icons: font
+:source-highlighter: coderay
+:docslink: https://jnorthr.wordpress.com/[Landing Page Documentation]
+:description: Documentation to describe how to use this project.
+:doctitle: README.adoc
+
+This is a text document formatted in the `asciidoctor` style of syntax. 
+
+== Purpose 
+
+*readme.html* is a website landing page for this sample project to print .adoc files. 
+
+''''
+
+== Converter Tool
+
+Here is the text.
+
